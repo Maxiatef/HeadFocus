@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+# Per-user calibration and the downloaded model don't belong in the repo.
+config.json
+models/
+# Build output: the installer and zip go to GitHub Releases, not the repo.
+release/
+# Personal editor settings.
+.vscode/
